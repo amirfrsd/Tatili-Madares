@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="KoodakBold.ttf">
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+            <string>KoodakBold</string>
+        </mutableArray>
+        <mutableArray key="Yekan.ttf">
+            <string>BYekan</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +32,300 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="منتظر پاسخ سرور!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7q-Ff-aXb">
+                                <rect key="frame" x="279" y="276" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="TLJ-YR-Sfo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.056895391089525127" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="TLJ-YR-Sfo"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="TLJ-YR-Sfo"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="منتظر پاسخ سرور!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVN-cS-PdV">
+                                <rect key="frame" x="279" y="320" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yZN-a8-r0P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.056895391089525127" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="yZN-a8-r0P"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="yZN-a8-r0P"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="وضعیت تعطیلی مدارس تهران" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3s-fY-cqF">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="منتظر پاسخ سرور!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGt-5Q-NnM">
+                                <rect key="frame" x="279" y="225" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="sfJ-ba-z2D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.056895391089525127" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sfJ-ba-z2D"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="sfJ-ba-z2D"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مدارس تهران فردا تعطیل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZV-H7-YU9">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="پایه های" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zT-XS-6ty">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مناطق:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJ2-qL-7FQ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="برنامه نویس: امیر فرساد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2I6-Ax-jxT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="این برنامه نیاز به اینترنت دارد!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyY-nu-NMq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6MW-8N-913"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KoodakBold" family="Koodak" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6MW-8N-913"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="6MW-8N-913"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izL-1H-h5d">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="iiM-tr-2m4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="18"/>
+                                <state key="normal" title="آپدیت"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="iiM-tr-2m4"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="iiM-tr-2m4"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="refresh:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="54k-4l-1xQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.66163046676322357" blue="0.66273651481221918" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LyY-nu-NMq" secondAttribute="bottom" constant="20" symbolic="YES" id="05G-IN-xHY">
+                                <variation key="widthClass=compact" constant="49"/>
+                            </constraint>
+                            <constraint firstItem="WZV-H7-YU9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="71" id="1lG-3R-51C">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="1zT-XS-6ty" firstAttribute="trailing" secondItem="WZV-H7-YU9" secondAttribute="trailing" id="3Kc-Bi-dK9">
+                                <variation key="widthClass=compact" constant="-71"/>
+                            </constraint>
+                            <constraint firstItem="1zT-XS-6ty" firstAttribute="leading" secondItem="WZV-H7-YU9" secondAttribute="leading" id="7xs-sy-pAi">
+                                <variation key="widthClass=compact" constant="71"/>
+                            </constraint>
+                            <constraint firstItem="eJ2-qL-7FQ" firstAttribute="top" secondItem="g7q-Ff-aXb" secondAttribute="bottom" constant="43" id="8zu-Yi-lzy"/>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="top" secondItem="WZV-H7-YU9" secondAttribute="bottom" constant="8" symbolic="YES" id="Ccr-Ye-rYF"/>
+                            <constraint firstItem="fVN-cS-PdV" firstAttribute="top" secondItem="eJ2-qL-7FQ" secondAttribute="bottom" constant="8" symbolic="YES" id="DPU-LQ-xWi"/>
+                            <constraint firstItem="izL-1H-h5d" firstAttribute="centerX" secondItem="fVN-cS-PdV" secondAttribute="centerX" id="HuQ-cr-agN"/>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="190" id="IHQ-q1-giW">
+                                <variation key="widthClass=compact" constant="16"/>
+                            </constraint>
+                            <constraint firstItem="izL-1H-h5d" firstAttribute="top" secondItem="fVN-cS-PdV" secondAttribute="bottom" constant="71" id="KFn-Y4-dSx"/>
+                            <constraint firstItem="1zT-XS-6ty" firstAttribute="top" secondItem="dGt-5Q-NnM" secondAttribute="bottom" constant="40" id="Mqw-R7-GSv"/>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Rb7-mg-pG1">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="G3s-fY-cqF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Rjo-zF-XQM"/>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="trailing" secondItem="g7q-Ff-aXb" secondAttribute="trailing" id="TJC-RR-xf1">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="2I6-Ax-jxT" secondAttribute="bottom" constant="20" symbolic="YES" id="TlE-ey-TH4"/>
+                            <constraint firstItem="1zT-XS-6ty" firstAttribute="trailing" secondItem="eJ2-qL-7FQ" secondAttribute="trailing" id="Vc9-yT-DN7"/>
+                            <constraint firstItem="g7q-Ff-aXb" firstAttribute="top" secondItem="1zT-XS-6ty" secondAttribute="bottom" constant="8" symbolic="YES" id="Wwa-Cy-fm0"/>
+                            <constraint firstItem="2I6-Ax-jxT" firstAttribute="top" secondItem="LyY-nu-NMq" secondAttribute="bottom" constant="8" symbolic="YES" id="YPJ-Lw-aqt"/>
+                            <constraint firstItem="1zT-XS-6ty" firstAttribute="leading" secondItem="eJ2-qL-7FQ" secondAttribute="leading" id="YZN-Ry-UBp"/>
+                            <constraint firstItem="fVN-cS-PdV" firstAttribute="trailing" secondItem="g7q-Ff-aXb" secondAttribute="trailing" id="b6X-Ih-bYd"/>
+                            <constraint firstItem="fVN-cS-PdV" firstAttribute="top" secondItem="g7q-Ff-aXb" secondAttribute="bottom" constant="23" id="bLn-Y4-34F">
+                                <variation key="widthClass=compact" constant="72"/>
+                            </constraint>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="153" id="d5Z-Ic-r0w">
+                                <variation key="widthClass=compact" constant="119"/>
+                            </constraint>
+                            <constraint firstItem="g7q-Ff-aXb" firstAttribute="top" secondItem="dGt-5Q-NnM" secondAttribute="bottom" constant="30" id="ebW-6J-UXF">
+                                <variation key="widthClass=compact" constant="69"/>
+                            </constraint>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="centerX" secondItem="G3s-fY-cqF" secondAttribute="centerX" id="fDC-WV-z5N">
+                                <variation key="widthClass=compact" constant="-0.5"/>
+                            </constraint>
+                            <constraint firstItem="g7q-Ff-aXb" firstAttribute="leading" secondItem="fVN-cS-PdV" secondAttribute="leading" id="fHV-v1-ANA"/>
+                            <constraint firstItem="LyY-nu-NMq" firstAttribute="leading" secondItem="fVN-cS-PdV" secondAttribute="leading" id="lLK-eR-Nd8"/>
+                            <constraint firstItem="LyY-nu-NMq" firstAttribute="trailing" secondItem="fVN-cS-PdV" secondAttribute="trailing" id="ny2-99-9CZ"/>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="leading" secondItem="g7q-Ff-aXb" secondAttribute="leading" id="pqL-h1-ZJb">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="WZV-H7-YU9" firstAttribute="top" secondItem="G3s-fY-cqF" secondAttribute="bottom" constant="43" id="roU-8W-Dpm"/>
+                            <constraint firstItem="2I6-Ax-jxT" firstAttribute="trailing" secondItem="LyY-nu-NMq" secondAttribute="trailing" id="vA9-Ur-dmx"/>
+                            <constraint firstItem="WZV-H7-YU9" firstAttribute="centerX" secondItem="dGt-5Q-NnM" secondAttribute="centerX" id="vQc-qf-hOD"/>
+                            <constraint firstItem="dGt-5Q-NnM" firstAttribute="top" secondItem="G3s-fY-cqF" secondAttribute="bottom" constant="8" symbolic="YES" id="vZR-h8-2Zv">
+                                <variation key="widthClass=compact" constant="72"/>
+                            </constraint>
+                            <constraint firstItem="G3s-fY-cqF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="62" id="yHu-oS-ZyA">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="2I6-Ax-jxT" firstAttribute="leading" secondItem="LyY-nu-NMq" secondAttribute="leading" id="yWi-lf-apo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="G3s-fY-cqF"/>
+                                <exclude reference="WZV-H7-YU9"/>
+                                <exclude reference="1zT-XS-6ty"/>
+                                <exclude reference="eJ2-qL-7FQ"/>
+                                <exclude reference="2I6-Ax-jxT"/>
+                                <exclude reference="LyY-nu-NMq"/>
+                                <exclude reference="izL-1H-h5d"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Rjo-zF-XQM"/>
+                                <exclude reference="yHu-oS-ZyA"/>
+                                <exclude reference="1lG-3R-51C"/>
+                                <exclude reference="roU-8W-Dpm"/>
+                                <exclude reference="vQc-qf-hOD"/>
+                                <exclude reference="Ccr-Ye-rYF"/>
+                                <exclude reference="IHQ-q1-giW"/>
+                                <exclude reference="Rb7-mg-pG1"/>
+                                <exclude reference="TJC-RR-xf1"/>
+                                <exclude reference="d5Z-Ic-r0w"/>
+                                <exclude reference="fDC-WV-z5N"/>
+                                <exclude reference="pqL-h1-ZJb"/>
+                                <exclude reference="vZR-h8-2Zv"/>
+                                <exclude reference="3Kc-Bi-dK9"/>
+                                <exclude reference="7xs-sy-pAi"/>
+                                <exclude reference="Mqw-R7-GSv"/>
+                                <exclude reference="Vc9-yT-DN7"/>
+                                <exclude reference="YZN-Ry-UBp"/>
+                                <exclude reference="Wwa-Cy-fm0"/>
+                                <exclude reference="ebW-6J-UXF"/>
+                                <exclude reference="fHV-v1-ANA"/>
+                                <exclude reference="8zu-Yi-lzy"/>
+                                <exclude reference="DPU-LQ-xWi"/>
+                                <exclude reference="b6X-Ih-bYd"/>
+                                <exclude reference="bLn-Y4-34F"/>
+                                <exclude reference="HuQ-cr-agN"/>
+                                <exclude reference="KFn-Y4-dSx"/>
+                                <exclude reference="05G-IN-xHY"/>
+                                <exclude reference="lLK-eR-Nd8"/>
+                                <exclude reference="ny2-99-9CZ"/>
+                                <exclude reference="TlE-ey-TH4"/>
+                                <exclude reference="YPJ-Lw-aqt"/>
+                                <exclude reference="vA9-Ur-dmx"/>
+                                <exclude reference="yWi-lf-apo"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="G3s-fY-cqF"/>
+                                <include reference="WZV-H7-YU9"/>
+                                <include reference="1zT-XS-6ty"/>
+                                <include reference="eJ2-qL-7FQ"/>
+                                <include reference="2I6-Ax-jxT"/>
+                                <include reference="LyY-nu-NMq"/>
+                                <include reference="izL-1H-h5d"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Rjo-zF-XQM"/>
+                                <include reference="yHu-oS-ZyA"/>
+                                <include reference="1lG-3R-51C"/>
+                                <include reference="roU-8W-Dpm"/>
+                                <include reference="vQc-qf-hOD"/>
+                                <include reference="Ccr-Ye-rYF"/>
+                                <include reference="IHQ-q1-giW"/>
+                                <include reference="Rb7-mg-pG1"/>
+                                <include reference="TJC-RR-xf1"/>
+                                <include reference="d5Z-Ic-r0w"/>
+                                <include reference="fDC-WV-z5N"/>
+                                <include reference="pqL-h1-ZJb"/>
+                                <include reference="vZR-h8-2Zv"/>
+                                <include reference="3Kc-Bi-dK9"/>
+                                <include reference="7xs-sy-pAi"/>
+                                <include reference="Mqw-R7-GSv"/>
+                                <include reference="Vc9-yT-DN7"/>
+                                <include reference="YZN-Ry-UBp"/>
+                                <include reference="Wwa-Cy-fm0"/>
+                                <include reference="ebW-6J-UXF"/>
+                                <include reference="fHV-v1-ANA"/>
+                                <include reference="8zu-Yi-lzy"/>
+                                <include reference="DPU-LQ-xWi"/>
+                                <include reference="b6X-Ih-bYd"/>
+                                <include reference="bLn-Y4-34F"/>
+                                <include reference="HuQ-cr-agN"/>
+                                <include reference="KFn-Y4-dSx"/>
+                                <include reference="05G-IN-xHY"/>
+                                <include reference="lLK-eR-Nd8"/>
+                                <include reference="ny2-99-9CZ"/>
+                                <include reference="TlE-ey-TH4"/>
+                                <include reference="YPJ-Lw-aqt"/>
+                                <include reference="vA9-Ur-dmx"/>
+                                <include reference="yWi-lf-apo"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="lbl1" destination="dGt-5Q-NnM" id="Opw-27-85z"/>
+                        <outlet property="lbl2" destination="g7q-Ff-aXb" id="I5L-4E-7VZ"/>
+                        <outlet property="lbl3" destination="fVN-cS-PdV" id="5ak-2s-hl3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

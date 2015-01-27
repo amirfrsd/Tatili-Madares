@@ -14,6 +14,17 @@
 		47FA71831A77CC7300096F0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FA71821A77CC7300096F0C /* Images.xcassets */; };
 		47FA71861A77CC7300096F0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47FA71841A77CC7300096F0C /* LaunchScreen.xib */; };
 		47FA71921A77CC7400096F0C /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FA71911A77CC7400096F0C /* ____________Tests.m */; };
+		47FA719F1A77D84A00096F0C /* Server.json in Resources */ = {isa = PBXBuildFile; fileRef = 47FA719E1A77D84A00096F0C /* Server.json */; };
+		47FA71A41A77DD8900096F0C /* KoodakBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47FA71A31A77DD8900096F0C /* KoodakBold.ttf */; };
+		47FA71A61A77E28500096F0C /* Yekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47FA71A51A77E28500096F0C /* Yekan.ttf */; };
+		47FA71AE1A77E2E500096F0C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FA71AD1A77E2E500096F0C /* NotificationCenter.framework */; };
+		47FA71B41A77E2E500096F0C /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FA71B31A77E2E500096F0C /* TodayViewController.m */; };
+		47FA71B61A77E2E500096F0C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FA71B51A77E2E500096F0C /* MainInterface.storyboard */; };
+		47FA71B91A77E2E500096F0C /* اکستنژن تعطیلی مدارس.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 47FA71AB1A77E2E500096F0C /* اکستنژن تعطیلی مدارس.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		47FA71C31A77E58F00096F0C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FA71AD1A77E2E500096F0C /* NotificationCenter.framework */; };
+		47FA71C81A77E58F00096F0C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA71C71A77E58F00096F0C /* TodayViewController.swift */; };
+		47FA71CA1A77E58F00096F0C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FA71C91A77E58F00096F0C /* MainInterface.storyboard */; };
+		47FA71CD1A77E58F00096F0C /* Today Extension Swift.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 47FA71C21A77E58F00096F0C /* Today Extension Swift.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +35,36 @@
 			remoteGlobalIDString = 47FA71711A77CC7300096F0C;
 			remoteInfo = "تعطیلی مدارس";
 		};
+		47FA71B71A77E2E500096F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FA716A1A77CC7300096F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47FA71AA1A77E2E500096F0C;
+			remoteInfo = "اکستنژن تعطیلی مدارس";
+		};
+		47FA71CB1A77E58F00096F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FA716A1A77CC7300096F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47FA71C11A77E58F00096F0C;
+			remoteInfo = "Today Extension Swift";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47FA71BD1A77E2E500096F0C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				47FA71CD1A77E58F00096F0C /* Today Extension Swift.appex in Embed App Extensions */,
+				47FA71B91A77E2E500096F0C /* اکستنژن تعطیلی مدارس.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		47FA71721A77CC7300096F0C /* تعطیلی مدارس.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "تعطیلی مدارس.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +80,19 @@
 		47FA718B1A77CC7400096F0C /* تعطیلی مدارسTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "تعطیلی مدارسTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FA71901A77CC7400096F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47FA71911A77CC7400096F0C /* ____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________Tests.m"; sourceTree = "<group>"; };
+		47FA719E1A77D84A00096F0C /* Server.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Server.json; sourceTree = "<group>"; };
+		47FA71A31A77DD8900096F0C /* KoodakBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KoodakBold.ttf; sourceTree = "<group>"; };
+		47FA71A51A77E28500096F0C /* Yekan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yekan.ttf; sourceTree = "<group>"; };
+		47FA71AB1A77E2E500096F0C /* اکستنژن تعطیلی مدارس.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "اکستنژن تعطیلی مدارس.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FA71AD1A77E2E500096F0C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		47FA71B11A77E2E500096F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FA71B21A77E2E500096F0C /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		47FA71B31A77E2E500096F0C /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		47FA71B51A77E2E500096F0C /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		47FA71C21A77E58F00096F0C /* Today Extension Swift.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Today Extension Swift.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FA71C61A77E58F00096F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FA71C71A77E58F00096F0C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		47FA71C91A77E58F00096F0C /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +110,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47FA71A81A77E2E500096F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA71AE1A77E2E500096F0C /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FA71BF1A77E58F00096F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA71C31A77E58F00096F0C /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +134,9 @@
 			children = (
 				47FA71741A77CC7300096F0C /* تعطیلی مدارس */,
 				47FA718E1A77CC7400096F0C /* تعطیلی مدارسTests */,
+				47FA71AF1A77E2E500096F0C /* اکستنژن تعطیلی مدارس */,
+				47FA71C41A77E58F00096F0C /* Today Extension Swift */,
+				47FA71AC1A77E2E500096F0C /* Frameworks */,
 				47FA71731A77CC7300096F0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +146,8 @@
 			children = (
 				47FA71721A77CC7300096F0C /* تعطیلی مدارس.app */,
 				47FA718B1A77CC7400096F0C /* تعطیلی مدارسTests.xctest */,
+				47FA71AB1A77E2E500096F0C /* اکستنژن تعطیلی مدارس.appex */,
+				47FA71C21A77E58F00096F0C /* Today Extension Swift.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +160,7 @@
 				47FA717C1A77CC7300096F0C /* ViewController.h */,
 				47FA717D1A77CC7300096F0C /* ViewController.m */,
 				47FA717F1A77CC7300096F0C /* Main.storyboard */,
+				47FA719E1A77D84A00096F0C /* Server.json */,
 				47FA71821A77CC7300096F0C /* Images.xcassets */,
 				47FA71841A77CC7300096F0C /* LaunchScreen.xib */,
 				47FA71751A77CC7300096F0C /* Supporting Files */,
@@ -96,6 +171,8 @@
 		47FA71751A77CC7300096F0C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				47FA71A51A77E28500096F0C /* Yekan.ttf */,
+				47FA71A31A77DD8900096F0C /* KoodakBold.ttf */,
 				47FA71761A77CC7300096F0C /* Info.plist */,
 				47FA71771A77CC7300096F0C /* main.m */,
 			);
@@ -119,6 +196,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47FA71AC1A77E2E500096F0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47FA71AD1A77E2E500096F0C /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47FA71AF1A77E2E500096F0C /* اکستنژن تعطیلی مدارس */ = {
+			isa = PBXGroup;
+			children = (
+				47FA71B21A77E2E500096F0C /* TodayViewController.h */,
+				47FA71B31A77E2E500096F0C /* TodayViewController.m */,
+				47FA71B51A77E2E500096F0C /* MainInterface.storyboard */,
+				47FA71B01A77E2E500096F0C /* Supporting Files */,
+			);
+			path = "اکستنژن تعطیلی مدارس";
+			sourceTree = "<group>";
+		};
+		47FA71B01A77E2E500096F0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47FA71B11A77E2E500096F0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47FA71C41A77E58F00096F0C /* Today Extension Swift */ = {
+			isa = PBXGroup;
+			children = (
+				47FA71C71A77E58F00096F0C /* TodayViewController.swift */,
+				47FA71C91A77E58F00096F0C /* MainInterface.storyboard */,
+				47FA71C51A77E58F00096F0C /* Supporting Files */,
+			);
+			path = "Today Extension Swift";
+			sourceTree = "<group>";
+		};
+		47FA71C51A77E58F00096F0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47FA71C61A77E58F00096F0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +251,13 @@
 				47FA716E1A77CC7300096F0C /* Sources */,
 				47FA716F1A77CC7300096F0C /* Frameworks */,
 				47FA71701A77CC7300096F0C /* Resources */,
+				47FA71BD1A77E2E500096F0C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				47FA71B81A77E2E500096F0C /* PBXTargetDependency */,
+				47FA71CC1A77E58F00096F0C /* PBXTargetDependency */,
 			);
 			name = "تعطیلی مدارس";
 			productName = "تعطیلی مدارس";
@@ -157,6 +282,40 @@
 			productReference = 47FA718B1A77CC7400096F0C /* تعطیلی مدارسTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		47FA71AA1A77E2E500096F0C /* اکستنژن تعطیلی مدارس */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FA71BA1A77E2E500096F0C /* Build configuration list for PBXNativeTarget "اکستنژن تعطیلی مدارس" */;
+			buildPhases = (
+				47FA71A71A77E2E500096F0C /* Sources */,
+				47FA71A81A77E2E500096F0C /* Frameworks */,
+				47FA71A91A77E2E500096F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "اکستنژن تعطیلی مدارس";
+			productName = "اکستنژن تعطیلی مدارس";
+			productReference = 47FA71AB1A77E2E500096F0C /* اکستنژن تعطیلی مدارس.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		47FA71C11A77E58F00096F0C /* Today Extension Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FA71CE1A77E58F00096F0C /* Build configuration list for PBXNativeTarget "Today Extension Swift" */;
+			buildPhases = (
+				47FA71BE1A77E58F00096F0C /* Sources */,
+				47FA71BF1A77E58F00096F0C /* Frameworks */,
+				47FA71C01A77E58F00096F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Today Extension Swift";
+			productName = "Today Extension Swift";
+			productReference = 47FA71C21A77E58F00096F0C /* Today Extension Swift.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +331,12 @@
 					47FA718A1A77CC7400096F0C = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 47FA71711A77CC7300096F0C;
+					};
+					47FA71AA1A77E2E500096F0C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					47FA71C11A77E58F00096F0C = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -190,6 +355,8 @@
 			targets = (
 				47FA71711A77CC7300096F0C /* تعطیلی مدارس */,
 				47FA718A1A77CC7400096F0C /* تعطیلی مدارسTests */,
+				47FA71AA1A77E2E500096F0C /* اکستنژن تعطیلی مدارس */,
+				47FA71C11A77E58F00096F0C /* Today Extension Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -200,7 +367,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47FA71811A77CC7300096F0C /* Main.storyboard in Resources */,
+				47FA71A61A77E28500096F0C /* Yekan.ttf in Resources */,
 				47FA71861A77CC7300096F0C /* LaunchScreen.xib in Resources */,
+				47FA71A41A77DD8900096F0C /* KoodakBold.ttf in Resources */,
+				47FA719F1A77D84A00096F0C /* Server.json in Resources */,
 				47FA71831A77CC7300096F0C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +379,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FA71A91A77E2E500096F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA71B61A77E2E500096F0C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FA71C01A77E58F00096F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA71CA1A77E58F00096F0C /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +419,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47FA71A71A77E2E500096F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA71B41A77E2E500096F0C /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FA71BE1A77E58F00096F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA71C81A77E58F00096F0C /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +442,16 @@
 			isa = PBXTargetDependency;
 			target = 47FA71711A77CC7300096F0C /* تعطیلی مدارس */;
 			targetProxy = 47FA718C1A77CC7400096F0C /* PBXContainerItemProxy */;
+		};
+		47FA71B81A77E2E500096F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47FA71AA1A77E2E500096F0C /* اکستنژن تعطیلی مدارس */;
+			targetProxy = 47FA71B71A77E2E500096F0C /* PBXContainerItemProxy */;
+		};
+		47FA71CC1A77E58F00096F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47FA71C11A77E58F00096F0C /* Today Extension Swift */;
+			targetProxy = 47FA71CB1A77E58F00096F0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "تعطیلی مدارس/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "تعطیلی مدارس/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,6 +607,55 @@
 			};
 			name = Release;
 		};
+		47FA71BB1A77E2E500096F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "اکستنژن تعطیلی مدارس/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47FA71BC1A77E2E500096F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "اکستنژن تعطیلی مدارس/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47FA71CF1A77E58F00096F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Today Extension Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47FA71D01A77E58F00096F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Today Extension Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +681,22 @@
 			buildConfigurations = (
 				47FA71991A77CC7400096F0C /* Debug */,
 				47FA719A1A77CC7400096F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47FA71BA1A77E2E500096F0C /* Build configuration list for PBXNativeTarget "اکستنژن تعطیلی مدارس" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FA71BB1A77E2E500096F0C /* Debug */,
+				47FA71BC1A77E2E500096F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47FA71CE1A77E58F00096F0C /* Build configuration list for PBXNativeTarget "Today Extension Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FA71CF1A77E58F00096F0C /* Debug */,
+				47FA71D01A77E58F00096F0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

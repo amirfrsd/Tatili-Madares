@@ -1,25 +1,30 @@
 //
-//  ViewController.m
-//  تعطیلی مدارس
+//  TodayViewController.m
+//  اکستنژن تعطیلی مدارس
 //
 //  Created by Amir Farsad on 1/27/15.
 //  Copyright (c) 2015 Amyr Farsad. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TodayViewController.h"
+#import <NotificationCenter/NotificationCenter.h>
 
-@interface ViewController ()
+@interface TodayViewController () <NCWidgetProviding>
 
 @end
 
-@implementation ViewController
+@implementation TodayViewController
+
 -(IBAction)refresh:(id)sender{
-    [self load];
+    [self viewDidLoad];
 }
--(void)load{
+- (void)viewDidLoad {
+    [super viewDidLoad];
+
+    //یه فیکس کوچیک برای نمایش دادن کل اجزای Storyboard مون توی اکستنژن :دی
+    self.preferredContentSize = CGSizeMake(0, 190);
     //فایل جی سان رو در تابه ی NSData لود میکنیم
     //دقت کنید این فایل JSON  داخل سورس کد همین پروژه قرار گرفته است!
-
     NSData *jsonData = [[NSData alloc] initWithContentsOfURL:
                         [NSURL URLWithString:@"http://khodkaar.ir/Server.json"]];
     NSError *error;
@@ -42,16 +47,22 @@
         }
     }
 
+    // Do any additional setup after loading the view from its nib.
 }
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self load];
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler {
+    // Perform any setup necessary in order to update the view.
+    
+    // If an error is encountered, use NCUpdateResultFailed
+    // If there's no update required, use NCUpdateResultNoData
+    // If there's an update, use NCUpdateResultNewData
+
+    completionHandler(NCUpdateResultNewData);
 }
 
 @end
